@@ -1,0 +1,12 @@
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+transfer_input_files = test.sh
+executable     = test.sh
+universe       = vanilla
+output         = $(Cluster).test.out
+error          = $(Cluster).test.error
+log            = $(Cluster).test.log
+
+requestmemory = 400M
+
+queue 1
