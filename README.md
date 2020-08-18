@@ -14,7 +14,7 @@ Dentro de las máquinas virtuales se encuentra la carpeta /vagrant, donde está 
 
     condor_submit submit.condor
     
-Esto enviara a ejecutar el script `test.sh`, el cual devuelve el hostname de la maquina. Debemos ejecutar varias veces este comando para poder forzar a HTCondor a que realice la interacción con el otro pool.
+Esto enviará a ejecutar el script `test.sh`, el cual devuelve el hostname de la máquina. Debemos ejecutar varias veces este comando para poder forzar a HTCondor a que realice la interacción con el otro pool.
 
 Más información sobre esta simulación se encuentra en este Link: [Documento](https://docs.google.com/document/d/1ieidQu6s3zqzjIImLeydZZWa0oEJRKOHAhm3V9TRdls/edit?usp=sharing)
 
